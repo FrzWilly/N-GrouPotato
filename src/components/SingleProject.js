@@ -1,6 +1,6 @@
 import React from 'react';
 import './Project.css';
-import ProjectProcess from './Projects'
+import ProjectProcess from './ProjectProcess'
 
 class SingleProject extends React.Component {
   // constructor(props){
@@ -9,8 +9,15 @@ class SingleProject extends React.Component {
   render(){
     return (
       <div className="singleProject">
-        {this.props.title}
-        <ProjectProcess propcess="進行中"/>
+        {
+          this.props.title
+          
+        }
+        <br/>
+        {
+          "Due: "+this.props.due
+        }
+        <ProjectProcess process="進行中"/>
       </div>
     );
   }

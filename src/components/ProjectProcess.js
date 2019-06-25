@@ -7,7 +7,7 @@ class ProjectProcess extends React.Component {
   // }
   render(){
     return (
-      <div className="ProjectProcess">
+      <div className="projectProcess">
         {this.props.process}
       </div>
     );
