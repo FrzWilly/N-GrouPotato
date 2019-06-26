@@ -4,7 +4,7 @@
     flex-direction: column;
     height: 650px;
     position: relative;
-    justify-content: space-around;
+    //justify-content: space-around;
     width: 25%;
     text-align: center;
     top: 70px;
@@ -23,6 +23,7 @@
     height: 4rem;
     width: 80%;
     left: 10%;
+    color: white;
     box-shadow: -0.5px 0px 1.5px  white, 0.5px 0.5px 1.5px black;
 }
 
@@ -80,4 +81,17 @@
     left: 25%;
     align-content: center;
     justify-content: center;
+}
+
+.projects{
+    background-color: #DBA37D;
+    display: flex;
+    flex-direction: column;
+    height: 650px;
+    position: relative;
+    justify-content: space-around;
+    width: 25%;
+    text-align: center;
+    top: 70px;
+    color: white;
 }

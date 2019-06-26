@@ -6,7 +6,7 @@ import NameContribute from '../components/NameContribute'
 class Projects extends React.Component {
   render(){
     return (
-      <div className="project">
+      <div className="projects">
         <div className="contributeUpper">
             <SingleProject title="決策分析報告" due="6/28" />
             <NameContribute name="王曉明" contribute="吉祥物"/>
